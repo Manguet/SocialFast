@@ -1,0 +1,26 @@
+.succeed-bg {
+  background-color: $succeed;
+  color: $near-white;
+}
+
+.failed-bg {
+  background-color: $failed;
+  color: $near-white;
+}
+
+.info-bg {
+  background-color: $info;
+  color: $near-white;
+}
+
+.succeed {
+  color: $succeed;
+}
+
+.failed {
+  color: $failed;
+}
+
+.info {
+  color: $info;
+}

@@ -1,0 +1,10 @@
+@keyframes toRight {
+  from {
+    padding-right: 0;
+    background-color: $near-white;
+  }
+  to   {
+    padding-right: 10px;
+    background-color: $color-3;
+  }
+}
