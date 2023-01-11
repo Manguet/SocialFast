@@ -27,16 +27,15 @@
         .profil {
           background-color: $near-white;
         }
-
-        .failed {
-          border: 1px solid $near-white;
-          border-radius: 50%;
-        }
       }
 
       .profil {
         height: 35px;
         border-radius: 50%;
+      }
+
+      .fa-circle {
+        font-size: 0.8em;
       }
     }
   }

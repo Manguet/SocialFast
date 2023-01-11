@@ -1,0 +1,10 @@
+<article id="rightBar">
+    {% if not app.user %}
+        <h2>Nouveau du SocialFast ?</h2>
+        <p class="text-justify text-mini">Inscrivez-vous pour profiter à 100% de SocialFast et de toutes les fonctionnalités !</p>
+        <button class="rounded-button"><i class="fa-brands fa-google-plus-g icon-colored"></i> S'inscrire avec Google</button>
+        <button class="rounded-button"><i class="fa-solid fa-at icon-colored"></i> S'inscrire avec mon email</button>
+        <button class="rounded-button"><i class="fa-solid fa-mobile icon-colored"></i> S'inscrire avec mon téléphone</button>
+        <p class="text-justify text-mini">En vous inscrivant, vous acceptez les <a href="#">Conditions d'utilisation</a> et la <a href="#">Politique de confidentialité</a>, notamment l'<a href="#">Utilisation des cookies</a>.</p>
+    {% endif %}
+</article>

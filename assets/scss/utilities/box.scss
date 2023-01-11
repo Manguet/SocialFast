@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+.box-between-no-align {
+  display: flex;
+  justify-content: space-between;
+}
+
 .box-around {
   display: flex;
   justify-content: space-around;

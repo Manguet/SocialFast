@@ -1,0 +1,21 @@
+.rounded-button {
+  padding: 8px 22px;
+  border-radius: 17px;
+  width: 100%;
+  background-color: $near-white;
+  border: 1px solid $color-2;
+  margin: 10px 0;
+  cursor: pointer;
+
+  &:hover {
+    filter: drop-shadow(0 3px 2px $color-2);
+    background-color: $color-2;
+    color: $near-white;
+    transition: background-color 0.3s linear;
+
+
+    svg {
+      color: $near-white;
+    }
+  }
+}
