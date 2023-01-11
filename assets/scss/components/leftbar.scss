@@ -1,0 +1,43 @@
+#leftBar {
+  height: calc(100vh - 8vh - 5px);
+  width: 15vw;
+  padding-top: 5px;
+  overflow-y: scroll;
+
+  h2 {
+    text-align: center;
+  }
+
+  ul {
+
+    li {
+      cursor: pointer;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      &:hover {
+        background-color: $color-3;
+        color: $near-white;
+        border-bottom-right-radius: 17px;
+        border-top-right-radius: 17px;
+        padding-right: 10px;
+        animation: toRight 0.3s linear;
+        box-shadow: $color-2 0 25px 20px -20px;
+
+        .profil {
+          background-color: $near-white;
+        }
+
+        .failed {
+          border: 1px solid $near-white;
+          border-radius: 50%;
+        }
+      }
+
+      .profil {
+        height: 35px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
